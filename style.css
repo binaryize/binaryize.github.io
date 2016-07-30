@@ -1,0 +1,53 @@
+html{
+    background-color: lightgrey;
+}
+body{
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color: lightgrey;
+    padding: 0px;
+    margin: 0px;
+}
+.header-container {
+    border-bottom: 20px solid black;
+    background-color: lightgrey;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: lightgrey;
+    margin: 50px 320px;
+    padding-left: 100px;
+    overflow: hidden;
+    width: 40%;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style-type: none;
+    display: block;
+    width: 400px;
+}
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #222;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: aquamarine;
+}
+
